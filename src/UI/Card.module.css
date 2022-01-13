@@ -1,0 +1,20 @@
+.card {
+  padding: 1rem;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  width: 65vw;
+}
+
+.card p {
+  text-align: center;
+  font-family: inherit;
+}
+
+.card label {
+  text-align: center;
+  font-size: 10px;
+  font-family: inherit;
+}

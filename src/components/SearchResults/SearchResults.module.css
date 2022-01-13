@@ -1,0 +1,36 @@
+.searchResults p {
+  align-self: auto;
+  position: relative;
+  font-size: 1rem;
+}
+
+button.filterButton {
+  background: linear-gradient(
+    0deg,
+    rgb(255, 150, 50) 0%,
+    rgb(255, 213, 121) 100%
+  );
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+  width: 5rem;
+  height: 2.5rem;
+}
+
+button.filterButton:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 149, 50) 0%,
+    rgb(255, 229, 115) 100%
+  );
+}
+
+.grid {
+  gap: 2rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  text-align: center;
+}

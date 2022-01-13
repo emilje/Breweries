@@ -1,0 +1,64 @@
+.item {
+  background: linear-gradient(
+    0deg,
+    rgba(128, 229, 255, 0.4) 0%,
+    rgb(230, 250, 255, 0.4) 100%
+  );
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  box-shadow: 0 0 5px #dadada;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.name {
+  padding: 5px;
+  padding-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.location {
+  margin: 0;
+  padding: 5px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+button.moreInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 100%;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, 0.6);
+
+  background: linear-gradient(
+    0deg,
+    rgb(255, 150, 50) 0%,
+    rgb(255, 213, 121) 100%
+  );
+  height: 25%;
+  transition: all 0.5s;
+}
+button.moreInfo:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 149, 50) 0%,
+    rgb(255, 229, 115) 100%
+  );
+  height: 25%;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+
+.moreInfo p {
+  font-size: 100%;
+  color: white;
+}
